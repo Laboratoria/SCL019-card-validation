@@ -4,11 +4,34 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!--Imagen de fondo de pantalla de cine-->
+    
+    <header>
+      <h1>Validador de tarjeta de crédito</h1>
+      
+    </header>
+   
+    
+    <!--Formulario de solicitud de datos de la tarjeta-->
+      <section class="cardRegister">
+        <input class="controls" type="text" id="cardNumber" name="cardNumber" placeholder="Card Number">
+        <input class="controls" type="text" id="carddHolderName" name="carddHolderName" placeholder="Cardholder Name">
+        <input class="controlsShorts" type="text" id="expiryDate" name="expiryDate" placeholder="Expiry Date">
+        <input class="controlsShorts" type="text" id="securityNumber" name="securityNumber" placeholder="Security Number">       
+      </section>
+      <input type="checkbox" name="conditions" value="accept-conditions" />
+        Acepto los <a href="#">términos y condiciones</a></input>
+      <button type="button" id="pagar">PAGAR</button>
+       
+      
+        
+      
+
+   
+        
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,40 @@
+/*Color del fondo de pantalla*/
+*{  margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;   
+}
+
+.cardRegister{
+    width: 400px;
+    background-color: red;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls{
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.controlsShorts {
+    width: 100px;
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+} 
+/*
+.terms{
+    display:block;
+    margin: auto;
+}
+/*Mediddas de la imagen de la pantalla del cine
+img{      
+        display: block;
+        margin: auto;
+        height: 600px;
+        width: 1200px;
+}*/
