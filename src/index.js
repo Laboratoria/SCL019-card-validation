@@ -1,12 +1,49 @@
 
-/*import validator from './validator.js';
-console.log(validator);*/
+import validator from './validator.js';
+//console.log(validator); 
 
-let cardNumber;
+
+
+function getData () {
+
+    const creditCardNumber = document.getElementById("creditCardNumber").value;
+    // let cardName = document.getElementById("carddHolderName").value;
+    //let date = document.getElementById("expiryDate").value;
+    //let security = document.getElementById("securityNumber").value;
+  // for (let i=0; i < cardNumber.length; i++)
+ //Se crea el arreglo donde se ingresan los números en orden invertidos de la tarjeta 
+  /*let x=0; 
+  for (let i=creditCardNumber.length - 1 ; i >= 0; i--){
+        arrayNumeros[x] = cardNumber[i];  
+        x=x+1;   
+    }
+    multiplyForTwo();*/
+    
+    validator.maskify (creditCardNumber);
+    validator.isValid (creditCardNumber); 
+}
+
+document.getElementById("pagar").onclick = getData;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let cardNumber;
 let arrayNumeros= new Array();
 let suma=0;
+let total;
 
-function getData() {
+/*function getData() {
 
     cardNumber = document.getElementById("cardNumber").value;
     // let cardName = document.getElementById("carddHolderName").value;
@@ -23,7 +60,7 @@ function getData() {
 }
 
 document.getElementById ("pagar").onclick = getData;
-console.log(arrayNumeros);
+//console.log(arrayNumeros);
 
 function multiplyForTwo (){
 // En las posiciones pares del array los números se multiplican por 2    
@@ -44,9 +81,7 @@ function multiplyForTwo (){
 function sumaNumbers (){
     for (let i=0; i<arrayNumeros.length;i++){
         suma=suma+parseInt(arrayNumeros[i]); 
-        
     }
-    console.log(suma);
-}
-
-
+    total = suma%10;
+    /*imprime el total de la sumatoria console.log(suma);
+//}*/
