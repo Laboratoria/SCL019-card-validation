@@ -1,31 +1,39 @@
 
 const validator = {
-//Esta funcion perm
-  maskify: function (creditCardNumber){
+//esta función sustitute los primeros números por # 
+  
+
+  maskify: function (cardNumber){
     let hiddenNumber= new Array;
-    let x=0;
-    for (let i=0 ; i < creditCardNumber.length ; i++){
-      if (i < creditCardNumber.length-4){
+       let x=0;
+    for (let i=0 ; i < cardNumber.length ; i++){
+      if (i < cardNumber.length-4){
         hiddenNumber[x] = '#'; 
         x=x+1;
       }else{
-        hiddenNumber[x] = creditCardNumber[i]; 
+        hiddenNumber[x] = cardNumber[i]; 
         x=x+1;
       }
-       
     }
-  console.log(hiddenNumber);
+    console.log(hiddenNumber.toString().replaceAll(",",""));
+    //document.getElementById('resultado').innerHTML = hiddenNumber.toString().replaceAll(",","");
+  return hiddenNumber.toString().replaceAll(",","");
   },
+ 
 
-     isValid: function (creditCardNumber) {
+
+     isValid: function (cardNumber) {
     //Se agrega el numero de la tarjeta en un array
       let x = 0;
       let suma = 0;
       let total = 0;
       let arrayNumber = new Array();
-      for (let i = creditCardNumber.length - 1; i >= 0; i--) {
-        arrayNumber[x] = creditCardNumber[i];
-        x = x + 1;
+
+      for (let i = cardNumber.length - 1; i >= 0; i--) {
+          arrayNumber[x] = cardNumber[i];
+          x = x + 1;
+           
+
       }
       /*Permite ver el nro de tdc en orden inverso */ console.log(arrayNumber);
       // En las posiciones pares del array los números se multiplican por 2    
@@ -48,15 +56,14 @@ const validator = {
       console.log(total);
       //En esta sección se determina la tarjeta es valida o no  
       if (total === 0) {
-      console.log("la tarjeta es valida ");
-      return true;
-      } else {
-      console.log("la tarjeta es invalida ");
-      return false;
+          //console.log("la tarjeta es valida ");
+        return true;
       }
-      
-
-  }
+          //console.log("la tarjeta es invalida ");   
+      return false;
+    
+  },
+  
     /*  get isValid() {
       return this._isValid;
       },

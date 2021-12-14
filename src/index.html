@@ -7,25 +7,47 @@
     
   </head>
   <body>
-    <!--Imagen de fondo de pantalla de cine-->
     
-    <header>
-      <h1>Validador de tarjeta de crédito</h1>
+  
+      <form action="" id="form">
+        <div class="form">
+            <h1>Tarjeta de crédito</h1>
+            <div class="grupo">
+              <input class= "controls" type="text"  id="creditCardNumber" placeholder="Card Number">
+            </div>
+            <div class="grupo">
+              <input class= "controls" type="text"  id="cardHolder" placeholder="Card Holder">
+            </div>
+            <div class="grupo">
+              <input class="controlsShorts" type="text" id="expiryDate" placeholder="MM/YYYY">
+            </div>
+            <div class="grupo">
+              <input class="controlsShorts" type="text" id="securityNumber" placeholder="CVC">
+            </div> 
+            <button type="button" id="pagar" onclick="validarFormulario()">Pagar</button>
+            <h1 id= "titulo"> </h1>
+        </div>
+      </form>
       
-    </header>
-   
+        
     
-    <!--Formulario de solicitud de datos de la tarjeta-->
-      <section class="cardRegister">
+      
+     
+     
+
+
+
+    <!--Formulario de solicitud de datos de la tarjeta
+      <section class="cardRegister" id="section">
+        <h1>Tarjeta de Crédito</h1><br>
         <input class="controls" type="text" id="creditCardNumber" name="creditCardNumber" placeholder="Card Number">
-        <input class="controls" type="text" id="carddHolderName" name="carddHolderName" placeholder="Cardholder Name">
-        <input class="controlsShorts" type="text" id="expiryDate" name="expiryDate" placeholder="Expiry Date">
-        <input class="controlsShorts" type="text" id="securityNumber" name="securityNumber" placeholder="Security Number">       
+        <input class="controls" type="text" id="cardName" name="cardName" placeholder="Name">
+        <input class="controlsShorts" type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY">
+        <input class="controlsShorts" type="text" id="securityNumber" name="securityNumber" placeholder="CVC">      
       </section>
       <input type="checkbox" name="conditions" value="accept-conditions" />
-        Acepto los <a href="#">términos y condiciones</a></input>
-      <button type="button" id="pagar">PAGAR</button>
-       
+        Acepto los <a href="#">términos y condiciones</a></input>-->
+         
       
         
       
