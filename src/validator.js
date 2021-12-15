@@ -32,8 +32,6 @@ const validator = {
       for (let i = cardNumber.length - 1; i >= 0; i--) {
           arrayNumber[x] = cardNumber[i];
           x = x + 1;
-           
-
       }
       /*Permite ver el nro de tdc en orden inverso */ console.log(arrayNumber);
       // En las posiciones pares del array los números se multiplican por 2    
@@ -64,13 +62,7 @@ const validator = {
     
   },
   
-    /*  get isValid() {
-      return this._isValid;
-      },
-      set isValid(value) {
-      this._isValid = value;
-    },
-  //alert("resultado de la funcion es valid: ", isValid());*/
+ 
 };
 
 

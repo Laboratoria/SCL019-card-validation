@@ -2,66 +2,66 @@ import validator from './validator.js';
 //console.log(validator); 
 
 
-//document.addEventListener("DOMContentLoaded", function() {
-  //  document.getElementById("form").addEventListener('submit', validarFormulario); 
-  //});
-  document.getElementById("pagar").onclick= validarFormulario;
 
-  function validarFormulario(evento) {
-    //evento.preventDefault();
-    
+document.getElementById("pagar").onclick = validarFormulario;
 
+function validarFormulario(evento) {
+    let noEspacios = false;
     let cardNumber = document.getElementById('creditCardNumber').value;
-    //Indenticamos si el string tiene espacios.
-    for (let i=0; i<cardNumber.length;i++){
-        console.log(cardNumber[i]);
-        if (cardNumber[i]===" "){
-            alert(cardNumber+" ERROR");
-            break;
-            //evento.stopImmediatePropagation();
-        }
-    }   
-    
-    //Validamos que el usuario escriba en el formulario
-    if(cardNumber.length == 0) {
-      alert('No has escrito el número de la tarjeta');
-      return;
-    }
-    // Validamos que el usuario escriba el nombre del títular de la tarjeta
     let username = document.getElementById('cardHolder').value;
-    if(username.length == 0) {
-    alert('No haz escrito el nombre del títular de la tarjeta');
-    return;
-    }
-    //Validamos la fecha de vencimiento de la tarjeta 
-    let date = document.getElementById('expiryDate').value;
-    if(date.length == 0) {
-    alert('No haz escrito la fecha de vencimiento de la tarjeta');
-    return;
-    }
-    //Validamos el código de seguridad de la tarjeta y que tenga 3 dígitos
     let security = document.getElementById('securityNumber').value;
-    if(security.length == 0) {
-    alert('No haz escrito el código de seguridad de la tarjeta');
-    return;
+    let date = document.getElementById('expiryDate').value;
+
+    //------------------Validamos que ningun campo este vacio-----------------------------------------------
+    //Campo número de tarjeta
+    if (cardNumber.length == "") {
+        alert('No has escrito el número de la tarjeta');
+        return;
     }
-    if(security.length > 3 || security.length < 3) {
+    //Campo del nombre 
+    if (username.length == "") {
+        alert('No haz escrito el nombre del títular de la tarjeta');
+        return;
+    }
+    //Campo de la fecha de vencimiento de la tarjeta 
+    if (date.length == "") {
+        alert('No haz escrito la fecha de vencimiento de la tarjeta');
+        return;
+    }
+    //Campo de código de seguridad de la tarjeta y que tenga 3 dígitos
+    if (security.length == "") {
+        alert('No haz escrito el código de seguridad de la tarjeta');
+        return;
+    }
+
+    //------------------Validar si la información ingresada esta correcta--------------------------
+
+    if (security.length > 3 || security.length < 3) {
         alert('Solo deben ser 3 digitos ');
         return;
     }
-    //Se muestra en pantalla si la función es válida o no.
-    let hiddenNumber=validator.maskify(cardNumber);
-    //alert(hiddenNumber);
-    let result=validator.isValid(cardNumber);
-    if (result == true){
-        
-        document.getElementById('titulo').innerHTML = "Su tarjeta "+hiddenNumber+" es VÁLIDA";
-    }else{
-        
-        document.getElementById('titulo').innerHTML = "Su tarjeta "+hiddenNumber+" es INVALIDA";
-       // alert("INVALIDA");
-    }   
+    // Valida que no se ingresen un campo vacío.   
+    for (let i = 0; i < cardNumber.length; i++) {
+        console.log(cardNumber[i]);
+        if (cardNumber[i] === " ") {
+            noEspacios = true;
+            break;
+        }
+    }
+    if (noEspacios === false) {
+        //Se muestra en pantalla si la función es válida o no.
+        let hiddenNumber = validator.maskify(cardNumber);
+        //alert(hiddenNumber);
+        let result = validator.isValid(cardNumber);
+        if (result == true) {
+            document.getElementById('titulo').innerHTML = "Su tarjeta " + hiddenNumber + " es VÁLIDA";
+        } else {
+            document.getElementById('titulo').innerHTML = "Su tarjeta " + hiddenNumber + " es INVÁLIDA";
+            // alert("INVALIDA");
+        }
+    } else {
+        alert("Se debe ingresar el número de la tarjera sin espacios en blanco");
+    }
 
-    
-return ;
-  }
+    return;
+}

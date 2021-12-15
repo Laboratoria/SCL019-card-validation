@@ -22,6 +22,12 @@ h1{
     text-align: center;
     font-weight: 700;
 }
+h3{
+    margin: auto;
+    color:yellow;
+    text-align: center;
+    font-weight: 700;
+}
 form {
     background: black;
     padding: 30px;
@@ -34,12 +40,6 @@ form .grupo{
     position:relative;
     margin: 10px;
 }
-/*input{
-    font-size: 18px;
-    display: inline-flex;
-    width: 100%;
-    border: none;
-}*/
 .controls{
     font-size: 18px;
     display: inline-flex;
