@@ -7,6 +7,8 @@ submitCardNumber.addEventListener("click", () => {
 
   let nombre = document.getElementById("nom").value;
   let maskNumber = validator.maskify(numeroTarjeta);
+  
+
 
   if (numeroTarjeta.length <= 12 || numeroTarjeta.length >= 19) {
     alert(nombre + " :Debes ingresar un número que tenga entre 13 y 18 dígitos");
