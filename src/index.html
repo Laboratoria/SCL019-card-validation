@@ -2,17 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" type="module"></script>
     
   </head>
   <body>
-    
-  
+    <header>
+        
+          <img src="logo.png" alt="Logo de Cinema">
+          <div class="menu">
+            <select name="ciudad">
+                <option value="value1" selected>Ciudad</option>
+                <option value="value2">Antofagasta</option>
+                <option value="value3">Arica</option>
+                <option value="value4">Calama</option>
+                <option value="value5">Castro</option>
+                <option value="value6">Chillan</option>
+                <option value="value7">Coquimbo</option>
+                <option value="value8">Los Angeles</option>
+                <option value="value9">Puerto Montt</option>
+                <option value="value10">Santiago</option>
+                <option value="value11">Santiago Centro</option>
+                <option value="value12">Santiago Oriente</option>
+                <option value="value13">Santiago Poniente y Oriente</option>
+                <option value="value14">Santiago Sur</option>
+                <option value="value15">Talca</option>
+                <option value="value16">Temuco</option>
+                <option value="value17">Valparaiso</option>
+            </select>
+                <div class="boton">
+                  <button type="submit" id="cartelera">VER CARTELERA</button>
+                </div>
+          </div>
+    </header>
+   <!-------Contenido principal del sitio web - formulario de validación ----------->
+    <main>
       <form action="" id="form">
         <div class="form">
             <h1>Tarjeta de crédito</h1>
-            <div class="grupo">>
+            <div class="grupo">
               <input class= "controls" type="text"  id="creditCardNumber" placeholder="Card Number">
             </div>
             <div class="grupo">
@@ -28,7 +57,12 @@
             <h3 id= "titulo"> </h3>
         </div>
       </form>   
-        
-    <script src="index.js" type="module"></script>
+    </main> 
+    <!-------------------Footer del sitio web------------------------>   
+    <footer class="piePagina">
+      <p>©Copyright 2022 de Cinema Spa. Todos los derechos reservados.</p>
+    </footer>  
   </body>
+  
+     
 </html>

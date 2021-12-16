@@ -1,21 +1,70 @@
-/*Color del fondo de pantalla*/
-*{  margin: 0%;
-    padding: 0%;
+*{  margin: 0;
+    padding: 0;
     box-sizing: border-box;   
 }
 body {      
-    background-image: url(pantallaCine.png);
+    
+    font-family:'calibri';
+   background-image: url(pantallaCine.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-color:grey;
-    height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+}
+header{
+    background: black;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+        
+}
+.menu{
+    padding: 50px 0px; 
+    width: 900px;
+    margin: 0 auto;
+}
+header img{
+    width: 120px;
+    float: left;
+}
+header select{
+    padding: 10px 15px;
+    float:right;
+    margin-left: 75px;
+    color: white;
+    background-color: black;
+    
+}
+.boton{
+    padding-right: 10px 15px;
+    width: 500px;
+    margin: 0 auto;
+    float: right;
+}
+#cartelera {
+    font-family: 'roboto';
+    background: #efb810;
+    border: none;
+    display: block;
+    margin-right: -480px;
+    font-family:'calibri';
+    color: white;
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    border-radius: 4px;
 }
 
+main{
+    align-items: center;
+    margin: auto;   
+}
 h1{
     margin: auto;
     color: white;
@@ -29,10 +78,14 @@ h3{
     font-weight: 700;
 }
 form {
+    position:absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -130px;
     background: black;
-    padding: 30px;
-    width: 400px;
     border-radius: 4px;
+    width: 300px;
 }
 
 form .grupo{
@@ -52,7 +105,7 @@ form .grupo{
 }
 button{
     font-family: 'roboto';
-    background: blue;
+    background: red;
     border: none;
     display: block;
     margin: 10px auto;
@@ -61,6 +114,7 @@ button{
     height: 30px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 4px;
 }
 #resultado{
     color: white;
@@ -71,5 +125,15 @@ button{
     border-radius: 4px;
     
 }
-
-
+.piePagina{
+    background: black;
+    width: 100%;
+    bottom: 0px;
+    height: 30px;
+    position: fixed;
+    left: 0px;
+}
+p{
+    color: white;
+    text-align: center;
+}

@@ -1,11 +1,8 @@
 import validator from './validator.js';
-//console.log(validator); 
-
-
 
 document.getElementById("pagar").onclick = validarFormulario;
 
-function validarFormulario(evento) {
+function validarFormulario() {
     let noEspacios = false;
     let cardNumber = document.getElementById('creditCardNumber').value;
     let username = document.getElementById('cardHolder').value;
@@ -42,7 +39,6 @@ function validarFormulario(evento) {
     }
     // Valida que no se ingresen un campo vacío.   
     for (let i = 0; i < cardNumber.length; i++) {
-        console.log(cardNumber[i]);
         if (cardNumber[i] === " ") {
             noEspacios = true;
             break;
@@ -51,13 +47,11 @@ function validarFormulario(evento) {
     if (noEspacios === false) {
         //Se muestra en pantalla si la función es válida o no.
         let hiddenNumber = validator.maskify(cardNumber);
-        //alert(hiddenNumber);
         let result = validator.isValid(cardNumber);
         if (result == true) {
             document.getElementById('titulo').innerHTML = "Su tarjeta " + hiddenNumber + " es VÁLIDA";
         } else {
             document.getElementById('titulo').innerHTML = "Su tarjeta " + hiddenNumber + " es INVÁLIDA";
-            // alert("INVALIDA");
         }
     } else {
         alert("Se debe ingresar el número de la tarjera sin espacios en blanco");
