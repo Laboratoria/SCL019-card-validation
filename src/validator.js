@@ -1,6 +1,6 @@
 const validator = {
 
-  validarTarjeta:(numeroTarjeta) => {
+  isValid:(numeroTarjeta) => {
 
    //Convertir input en array e invertir el orden de los digitos.
     let luhmIngresar= numeroTarjeta.split("").map(Number).reverse();
@@ -29,7 +29,7 @@ const validator = {
    },
 
    maskify: (numeroTarjeta) => {
-    let mask = " ";
+    let mask = "";
 
     for (let i = 0; i < numeroTarjeta.length; i++) {
 
