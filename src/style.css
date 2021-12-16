@@ -29,7 +29,6 @@ h2 {
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent),
     url(/src/Img/fondo.webp) repeat 50% 50%;
-  -webkit-background-clip: text;
 }
 
 .btn1 {
