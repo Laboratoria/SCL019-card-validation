@@ -28,7 +28,7 @@ h2 {
   -webkit-text-stroke: 1.5px white;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent),
-  url(/src/Img/fondo.webp) repeat 50% 50%;
+  url(Img/fondo.webp) repeat 50% 50%;
   -webkit-background-clip: text;
 
 }
