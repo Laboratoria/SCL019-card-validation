@@ -11,30 +11,30 @@
 
 ## 1. VERSIÓN FINAL:
 
-Página de inicio: 01 Viajes Espaciales -  Inicio
+### Página de inicio: 01 Viajes Espaciales -  Inicio
 
-![image](https://user-images.githubusercontent.com/91227867/146607638-490a16b1-60da-4863-b71c-98adb4ac1ceb.png)
+<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607638-490a16b1-60da-4863-b71c-98adb4ac1ceb.png" align="left" height="200" width="200" ></a>
 
 
-
-Página 2a - Viaje a Marte 02 Viajes Espaciales - Viaje Marte
+### Página 2a - Viaje a Marte 02 Viajes Espaciales - Viaje Marte
 
 ![image](https://user-images.githubusercontent.com/91227867/146607657-4aa163c8-5774-4148-bfc1-163d61bcc5fb.png)
 
 
 
-Página 2b - Viaje a la Luna 03 Viajes Espaciales - Viaje Luna
+### Página 2b - Viaje a la Luna 03 Viajes Espaciales - Viaje Luna
 
 ![image](https://user-images.githubusercontent.com/91227867/146607681-93feb3f0-b128-4e1c-bb75-bead921eabd9.png)
 
 
-Página de validación de tarjeta 04 Viajes Espaciales -  Validación
+### Página de validación de tarjeta 04 Viajes Espaciales -  Validación
 
 ![image](https://user-images.githubusercontent.com/91227867/146607710-3cb47c84-d6f9-4c8b-ba0e-6499fbde3b62.png)
 
 
 
-<strong> Alerts </strong>
+### Alerts 
+
 ![image](https://user-images.githubusercontent.com/91227867/146607716-a6cfefae-7cfb-416b-9cad-daf376da3df7.png)
 ![image](https://user-images.githubusercontent.com/91227867/146607724-fe42ba16-56e4-43ca-af82-cf3fa5e5b024.png)
 ![image](https://user-images.githubusercontent.com/91227867/146607762-e8fa078b-d8d5-45bb-ab61-9abab0e70129.png)
@@ -66,4 +66,4 @@ La página ofrece una plataforma a través de la cual se puede obtener informaci
 
 ![Uploading image.png…]()
 
-https://user-images.githubusercontent.com/95220695/146602557-f458c470-84c3-478a-819e-8f571a0bfea0.png
+
