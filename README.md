@@ -13,7 +13,7 @@
 
 ### Página de inicio: 01 Viajes Espaciales -  Inicio
 
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607638-490a16b1-60da-4863-b71c-98adb4ac1ceb.png" align="left" height="200" width="200" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607638-490a16b1-60da-4863-b71c-98adb4ac1ceb.png" align="left" height="512" width="720" ></a>
 
 
 ### Página 2a - Viaje a Marte 02 Viajes Espaciales - Viaje Marte
