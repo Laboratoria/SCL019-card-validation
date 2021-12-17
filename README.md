@@ -36,7 +36,7 @@
 
 <a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607716-a6cfefae-7cfb-416b-9cad-daf376da3df7.png" align="center"></a>
 <a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607724-fe42ba16-56e4-43ca-af82-cf3fa5e5b024.png" align="center"></a>
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607762-e8fa078b-d8d5-45bb-ab61-9abab0e70129.png" align="center"></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610265-7719d2e0-2fdc-406e-bcc6-82ee6c785cea.png" align="center"></a>
 
 ## 2. INVESTIGACIÓN UX:
 
@@ -53,7 +53,7 @@ La página ofrece una plataforma a través de la cual se puede obtener informaci
 ## 3. PROTOTIPO INICIAL:
 
 
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607785-e602b0c9-b626-4ec8-aace-b15b3afc88bc.png" align="center" height="512" width="720"></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610363-8cd249a4-b191-496d-af10-b3af407cc188.png" align="center"></a>
 
 ### Feedback del prototipo inicial: 
 - Incluir un botón o link para volver a la página de inicio. 
@@ -62,6 +62,6 @@ La página ofrece una plataforma a través de la cual se puede obtener informaci
 
 ## 4. PROTOTIPO FINAL
 
-![Uploading image.png…]()
+<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610408-22c4f27c-6849-43ee-b5e9-95480459daeb.png" align="center"></a>
 
 
