@@ -19,6 +19,7 @@ Página de validación de tarjeta
 ![04 Viajes Espaciales -  Validación](https://user-images.githubusercontent.com/95220695/146602695-6972aef9-f210-4670-afe3-b7209a7f11b4.png)
 
 Alerts
+
 ![05 Viajes Espaciales - Alert campo vacío](https://user-images.githubusercontent.com/95220695/146602704-b3f87b8f-8e62-49bd-b9e9-8721ce582aad.png)
 ![06 Viajes Espaciales - Alert tarjeta válida](https://user-images.githubusercontent.com/95220695/146602710-4ab47ed2-c380-442c-93c8-498b12b215be.png)
 ![07 Viajes Espaciales - Alert tarjeta inválida](https://user-images.githubusercontent.com/95220695/146602714-3854bb00-24f6-4016-bf14-88e168fca835.png)
