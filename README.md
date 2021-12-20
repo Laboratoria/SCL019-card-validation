@@ -10,46 +10,9 @@
 
 ## 1. ✓ VERSIÓN FINAL:
 
-### Página de inicio: 01 Viajes Espaciales -  Inicio ⭐
-
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610656-04bacb2f-a1d5-43ce-9609-ad1ca5f94120.png" align="center" height="512" width="720" ></a>
-<br>
-<br>
-<br>
+![Versión Final con texto](https://user-images.githubusercontent.com/95220695/146765536-242d2ddb-79a9-4dd4-98fb-d8b4c651de3b.png)
 
 
-### Página 2a - Viaje a Marte 02 Viajes Espaciales - Viaje Marte 👽
-
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607638-490a16b1-60da-4863-b71c-98adb4ac1ceb.png" align="center" height="512" width="720" ></a>
-<br>
-<br>
-<br>
-
-
-### Página 2b - Viaje a la Luna 03 Viajes Espaciales - Viaje Luna 🌝
-
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607657-4aa163c8-5774-4148-bfc1-163d61bcc5fb.png" align="center" height="512" width="720" ></a>
-<br>
-<br>
-<br>
-
-
-### Página de validación de tarjeta 04 Viajes Espaciales -  Validación ✌ (-‿-) ✌
-
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146607681-93feb3f0-b128-4e1c-bb75-bead921eabd9.png" align="center" height="512" width="720" ></a>
-<br>
-<br>
-<br>
-
-
-### Alerts 
-
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610799-ab5a97bf-b62b-4d58-b364-c5f0c3c78ca0.png" align="center"></a>
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610844-26d8b71c-8fc8-4e3a-a862-eb9bb7fe9a06.png" align="center"></a>
-<a href="url"><img src="https://user-images.githubusercontent.com/91227867/146610885-55db91ff-a4fe-4482-bdd4-662efdda6a9c.png" align="center"></a>
-<br>
-<br>
-<br>
 
 
 ## 2. 👀 INVESTIGACIÓN UX:
