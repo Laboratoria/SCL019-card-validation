@@ -1,7 +1,8 @@
 # Tarjeta de crédito válida - Cinema
 
-* [Link proyecto:](https://danielaalcaladaboin.github.io/SCL019-card-validation/)
+* Link proyecto: [Ir al Sitio](https://danielaalcaladaboin.github.io/SCL019-card-validation/)
 
+## Índice
 * [1. Preámbulo](#1-preámbulo)
 * [2. Usuario, objetivo y beneficios del producto.](#2-usuario-objetivo-y-beneficios-del-producto)
 * [3. Prototipo de baja fidelidad](#3-prototipo-baja-fidelidad)
