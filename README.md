@@ -9,7 +9,7 @@
 
 Dada la pandemia muchas empresas han tenido que implementar un servicio de ecommerce en sus sitios web para facilitar la adquisición de sus servicios, entre ellos están los cines, quienes se han visto en la necesidad de renovar y mejorar el proceso de compra y venta de boletería tanto en físico como online. Por esta razón se decidió crear un producto enfocado en ellos. 
 
-(imgFinal.jpg)
+<img src="./src/imgFinal.jpg" alt="Imagen final del sitio web"/>
 
 ## 2. Usuario, objetivo y beneficios del producto.
 
@@ -23,4 +23,5 @@ Debido a que en la actualidad sigue el crecimiento de hurto de datos y estafas p
 (https://ibb.co/pKhytt9)
 
 ## 4. Prototipo final:
-(prototipoAlta.jpg)
+<img src="./src/prototipoAlta.jpg" alt="Imagen prototipo de alta fidelidad"/>
+
