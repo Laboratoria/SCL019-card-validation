@@ -1,9 +1,10 @@
 
 const validator = {
+
 //esta función sustitute los primeros números por # 
   maskify: function (cardNumber){
     let hiddenNumber= new Array;
-       let x=0;
+    let x=0;
     for (let i=0 ; i < cardNumber.length ; i++){
       if (i < cardNumber.length-4){
         hiddenNumber[x] = '#'; 
@@ -15,8 +16,6 @@ const validator = {
     }
   return hiddenNumber.toString().replaceAll(",","");
   },
- 
-
 
      isValid: function (cardNumber) {
     //Se agrega el numero de la tarjeta en un array
@@ -50,15 +49,8 @@ const validator = {
           //console.log("la tarjeta es valida ");
         return true;
       }
-          //console.log("la tarjeta es invalida ");   
+         // console.log("la tarjeta es invalida ");   
       return false;
-    
   },
-  
- 
 };
-
-
-
 export default validator;
-

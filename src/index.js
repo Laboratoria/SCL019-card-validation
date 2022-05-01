@@ -1,6 +1,5 @@
 import validator from './validator.js';
 
-document.getElementById("pagar").onclick = validarFormulario;
 
 function validarFormulario() {
     let noEspacios = false;
@@ -8,34 +7,30 @@ function validarFormulario() {
     let username = document.getElementById('cardHolder').value;
     let security = document.getElementById('securityNumber').value;
     let date = document.getElementById('expiryDate').value;
+    
+
 
     //------------------Validamos que ningun campo este vacio-----------------------------------------------
     //Campo número de tarjeta
     if (cardNumber.length == "") {
         alert('No has escrito el número de la tarjeta');
-        return;
     }
     //Campo del nombre 
     if (username.length == "") {
         alert('No haz escrito el nombre del títular de la tarjeta');
-        return;
     }
     //Campo de la fecha de vencimiento de la tarjeta 
     if (date.length == "") {
         alert('No haz escrito la fecha de vencimiento de la tarjeta');
-        return;
+
     }
     //Campo de código de seguridad de la tarjeta y que tenga 3 dígitos
     if (security.length == "") {
         alert('No haz escrito el código de seguridad de la tarjeta');
-        return;
     }
-
-    //------------------Validar si la información ingresada esta correcta--------------------------
-
+    //------------------Validar si la información ingresada esta correcta--------------------------  
     if (security.length > 3 || security.length < 3) {
         alert('Solo deben ser 3 digitos ');
-        return;
     }
     // Valida que no se ingresen un campo vacío.   
     for (let i = 0; i < cardNumber.length; i++) {
@@ -56,6 +51,6 @@ function validarFormulario() {
     } else {
         alert("Se debe ingresar el número de la tarjera sin espacios en blanco");
     }
-
     return;
 }
+document.getElementById("pagar").onclick = validarFormulario;

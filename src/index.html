@@ -4,21 +4,19 @@
     <meta charset="utf-8">
     <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" type="module"></script>
     
   </head>
   <body>
     <header>
-        
           <img src="logo.png" alt="Logo de Cinema">
           <div class="menu">
             <select name="ciudad">
-                <option value="value1" selected>Ciudad</option>
-                <option value="value2">Antofagasta</option>
-                <option value="value3">Arica</option>
-                <option value="value4">Calama</option>
-                <option value="value5">Castro</option>
-                <option value="value6">Chillan</option>
+              <option value="value1" selected>Ciudad</option>
+              <option value="value2">Antofagasta</option>
+              <option value="value3">Arica</option>
+              <option value="value4">Calama</option>
+              <option value="value5">Castro</option>
+              <option value="value6">Chillan</option>
                 <option value="value7">Coquimbo</option>
                 <option value="value8">Los Angeles</option>
                 <option value="value9">Puerto Montt</option>
@@ -30,39 +28,51 @@
                 <option value="value15">Talca</option>
                 <option value="value16">Temuco</option>
                 <option value="value17">Valparaiso</option>
-            </select>
+              </select>
                 <div class="boton">
                   <button type="submit" id="cartelera">VER CARTELERA</button>
                 </div>
           </div>
+          <nav class= "barraMenu">
+            <ul>
+              <li><a href="#">INICIO</a></li>
+              <li><a href="#">ESTRENOS</a></li>
+              <li><a href="#">CINEMA</a></li>
+              <li><a href="#">PROMOS</a></li>
+              <li><a href="#">CLUB CINEMA</a></li>
+              <li><a href="#">CORPORATIVO</a></li>
+            </ul>
+          </nav>
     </header>
-   <!-------Contenido principal del sitio web - formulario de validación ----------->
+    <!-------Contenido principal del sitio web - formulario de validación ----------->
     <main>
-      <form action="" id="form">
+      
+      <form id="form">
         <div class="form">
-            <h1>Tarjeta de crédito</h1>
-            <div class="grupo">
-              <input class= "controls" type="text"  id="creditCardNumber" placeholder="Card Number">
+          <h1>Tarjeta de crédito</h1><br>
+          <div>
+            <input class="controls" type="text"  id="creditCardNumber" placeholder="Número de la Tarjeta">
+            </div><br>
+            <div>
+              <input class= "controls" type="text"  id="cardHolder" placeholder="Nombre y Apellido">
+            </div><br>
+            <div class="form-inline">
+              <div>
+                <input class="controlShort" type="text" id="expiryDate" placeholder="MM/YYYY">-<input class="controlShort" type="text" id="securityNumber" placeholder="CVC">
+              </div>
             </div>
-            <div class="grupo">
-              <input class= "controls" type="text"  id="cardHolder" placeholder="Card Holder">
-            </div>
-            <div class="grupo">
-              <input class="controlsShorts" type="text" id="expiryDate" placeholder="MM/YYYY">
-            </div>
-            <div class="grupo">
-              <input class="controlsShorts" type="text" id="securityNumber" placeholder="CVC">
-            </div>
-            <button type="button" id="pagar" onclick="validarFormulario()">Pagar</button>
+            <button type="button" id="pagar" onclick= "validarFormulario()">PAGAR</button>
+            <!-----contiene el mensaje de si la tarjeta es valido o no----------->
             <h3 id= "titulo"> </h3>
-        </div>
-      </form>   
-    </main> 
-    <!-------------------Footer del sitio web------------------------>   
-    <footer class="piePagina">
-      <p>©Copyright 2022 de Cinema Spa. Todos los derechos reservados.</p>
-    </footer>  
-  </body>
-  
-     
-</html>
+          </div>
+        </form>  
+      </main> 
+      <!-------------------Footer del sitio web------------------------>   
+      <footer class="piePagina">
+        <p>©Copyright 2022 de Cinema Spa. Todos los derechos reservados.</p>
+      </footer>  
+      <script src="index.js" type="module"></script>
+    </body>
+    
+    
+    </html>

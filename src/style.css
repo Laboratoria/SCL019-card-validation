@@ -3,9 +3,8 @@
     box-sizing: border-box;   
 }
 body {      
-    
     font-family:'calibri';
-   background-image: url(pantallaCine.png);
+    background-image: url(pantallaCine.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,31 +12,36 @@ body {
     background-color:grey;
     display: flex;
     justify-content: center;
-    
 }
 header{
     background: black;
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
-        
+    display: table;
+}
+header a{
+    color: white;
+    text-decoration: none;
 }
 .menu{
-    padding: 50px 0px; 
+    padding: 15px 0px; 
     width: 900px;
     margin: 0 auto;
 }
-header img{
-    width: 120px;
+img{
+    width: 140px;
     float: left;
+    position: fixed;
+    left: 60px;
+    top: -10px;
 }
-header select{
+select{
     padding: 10px 15px;
     float:right;
     margin-left: 75px;
     color: white;
     background-color: black;
-    
 }
 .boton{
     padding-right: 10px 15px;
@@ -60,7 +64,31 @@ header select{
     float: right;
     border-radius: 4px;
 }
-
+.barraMenu{
+    color:white;
+    width: 900px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    cursor: pointer;
+    display: inline-block;
+}
+nav ul li a{
+    display: block;
+}
+nav ul li a:hover{
+    background: red;
+}
 main{
     align-items: center;
     margin: auto;   
@@ -70,6 +98,7 @@ h1{
     color: white;
     text-align: center;
     font-weight: 700;
+    font-size: 28px;
 }
 h3{
     margin: auto;
@@ -87,32 +116,34 @@ form {
     border-radius: 4px;
     width: 300px;
 }
-
 form .grupo{
-    
     position:relative;
     margin: 10px;
 }
 .controls{
-    font-size: 18px;
+    font-size: 15px;
     display: inline-flex;
-    width: 100%;
-    border: none;
+    width: 90%;
+    padding: 4px;
+    margin-left: 15px;
 }
 .controlShort{
-    width: 10px;
-    padding: 30px;
+    width: 90px;
+    padding: 4px;
+    text-align: center;
+    margin-left: 40px;
 }
+
 button{
-    font-family: 'roboto';
-    background: red;
+    font-family:'calibri';
+    background: rgb(8, 167, 236);
     border: none;
     display: block;
     margin: 10px auto;
     color: white;
     width: 40%;
     height: 30px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 4px;
 }
@@ -137,3 +168,5 @@ p{
     color: white;
     text-align: center;
 }
+
+
