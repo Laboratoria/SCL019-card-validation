@@ -2,8 +2,8 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Usuario, objetivo y beneficios del producto.](#2-usuario-objetivo-y-beneficios-del-producto)
-* [3. Preámbulo](#3-prototipo-baja-fidelidad)
-* [4. Preámbulo](#4-prototipo-final)
+* [3. Prototipo de baja fidelidad](#3-prototipo-baja-fidelidad)
+* [4. Prototipo Final](#4-prototipo-final)
 
 ## 1. Preámbulo
 
