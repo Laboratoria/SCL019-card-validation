@@ -20,7 +20,7 @@ La empresa Cinema al adquirir este producto podrá determinar qué tipo de tarje
 Debido a que en la actualidad sigue el crecimiento de hurto de datos y estafas por la web, con nuestro sistema de validación de tarjeta de crédito contribuimos a que nuestros clientes no sean víctimas estos actos.
 
 ## 3. Prototipo baja fidelidad:
-(https://ibb.co/pKhytt9)
+<img src="./src/prototipoBaja.jpg" alt="Imagen prototipo de baja fidelidad"/>
 
 ## 4. Prototipo final:
 <img src="./src/prototipoAlta.jpg" alt="Imagen prototipo de alta fidelidad"/>
