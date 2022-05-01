@@ -9,7 +9,7 @@
 
 Dada la pandemia muchas empresas han tenido que implementar un servicio de ecommerce en sus sitios web para facilitar la adquisición de sus servicios, entre ellos están los cines, quienes se han visto en la necesidad de renovar y mejorar el proceso de compra y venta de boletería tanto en físico como online. Por esta razón se decidió crear un producto enfocado en ellos. 
 
-[Imagen final del proyecto](https://ibb.co/RBWGggN)
+(imgFinal.jpg)
 
 ## 2. Usuario, objetivo y beneficios del producto.
 
@@ -23,4 +23,4 @@ Debido a que en la actualidad sigue el crecimiento de hurto de datos y estafas p
 (https://ibb.co/pKhytt9)
 
 ## 4. Prototipo final:
-(https://www.figma.com/file/V6gbym6rzrcLYF3LagB14R/Prototipo-Card-Validation)
+(prototipoAlta.jpg)
