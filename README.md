@@ -1,6 +1,6 @@
 # Tarjeta de crédito válida - Cinema
 
-* Link proyecto: [Ir al Sitio](https://danielaalcaladaboin.github.io/SCL019-card-validation/)
+* Link proyecto: [Ir al Sitio](https://danielaalcaladaboin.github.io/SCL019-card-validation/src/index.html)
 
 ## Índice
 * [1. Preámbulo](#1-preámbulo)
